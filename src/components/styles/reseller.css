@@ -1,0 +1,77 @@
+.reseller {
+  margin: 100px 0;
+  overflow: hidden;
+}
+
+.reseller-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rs-img-container {
+  width: 50%;
+  text-align: left;
+}
+
+.reseller-content {
+  width: 50%;
+  text-align: left;
+  padding-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.reseller-content h3,
+.reseller-content p {
+  width: 80%;
+}
+
+.reseller-content h3 {
+  color: rgb(73, 98, 158);
+  font-size: 24px;
+}
+
+.reseller-content p {
+  color: rgb(97, 97, 97);
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 20px 0;
+}
+
+.reseller-content button {
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(65, 150, 219);
+}
+
+@media only screen and (max-width: 768px) {
+  .reseller-container {
+    width: 100%;
+    display: block;
+  }
+
+  .rs-img-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .rs-img-container img {
+    width: 50%;
+    margin: 0 auto 40px;
+  }
+
+  .reseller-content {
+    width: 100%;
+    text-align: center;
+    top: 0;
+  }
+
+  .reseller-content h3,
+  .reseller-content p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
